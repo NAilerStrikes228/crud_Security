@@ -65,8 +65,8 @@ public class UserServiceImpl implements UserService {
         Set<Role> roleSet2 = new HashSet<>();
         roleSet2.add(roleDAO.findById(1L).get());
         roleSet2.add(roleDAO.findById(2L).get());
-        User user1 = new User("Garry", "Potter", (byte) 27, "user1@mail.ru", "user1", "12345", roleSet);
-        User user2 = new User("Steve", "Jobs", (byte) 52, "admin@mail.ru", "admin", "admin", roleSet2);
+        User user1 = new User("Billy", "Herrington", (byte) 45, "user1@mail.ru", "user1", "111111", roleSet);
+        User user2 = new User("volodia", "pypin", (byte) 70, "admin@mail.ru", "admin", "admin", roleSet2);
         save(user1);
         save(user2);
     }
